@@ -8,7 +8,7 @@
          "manager",
          "Saitama"
       ],   
-   "repository": "https://github.com/aykhan026/NezrinRobot",
+   "repository": "https://github.com/aykhan026/QadirRobot",
    "addons": [
       {
          "options": {
@@ -18,19 +18,18 @@
       }
    ],
    "env": {
-      "TOKEN": {
-         "description": "Bot token buraya",
+      "TOKEN": { 
+         "description": "6065065057:AAF1bXLnFnq5c9Rqy3Z_5RpUgLWBzeyITBs",
          "required": true,
          "value": ""
       },
       "API_ID": {
-         "description": "Telethon bazalı modullar üçün my.telegram.org adresindən Api ID alın.",
+         "description": "26712413",
          "required": true,
          "value": ""
       },
       "API_HASH": {
-         "description": "Telethon bazalı modullar üçün my.telegram.org adresindən Api Hash alın",
-         "required": true,
+         "description": "3298034eb7cec614ef852fda02536153
          "value": ""
       },    
       "SQLALCHEMY_DATABASE_URI": {
@@ -39,26 +38,26 @@
          "value": "sqldbtype://username:pw@hostname:port/db_name"
       },      
       "OWNER_ID": {
-         "description": "Sənin User ID.",
+         "description": "5860341998",
          "required": true,
          "value": "1727079853"
       },
       "OWNER_USERNAME": {
-         "description": "@ işarəsi olmadan username",
+         "description": "nesirovqadirofficiall",
          "value": "aykhan_s"
       },
       "SUPPORT_CHAT": {
-         "description": "Botunuzn Support qrupunun linki @ işarəsi olmadan. Öz qrupunuzu eliyin Pakizənin qrup linkini yox.",
+         "description": "https://t.me/imperatorofficiall",
          "required": true,
          "value": ""
       },
       "EVENT_LOGS": {
-         "description": "Vacib hadisələrin saxlanacağı qrup/kanal ID",
+         "description": "https://t.me/QadirRooBot",
          "required": true,
          "value": ""
       },
       "JOIN_LOGGER": {
-         "description": "Botun əlavə olunduğu qruplar bu kanalda/qrupda saxlanılacaq",
+         "description": "https://t.me/QadirRooBot",
          "required": true,
          "value": ""
       },      
@@ -78,7 +77,7 @@
          "value": "660565862 459034222 189005567 346981140 367222759 1727079853"
       },
       "sw_api": {
-         "description": "Spamwatch API Token. @SpamWatchBot botundan alın.",
+         "description": "i~AEAy~3qSy1aIJcOda0UgU9E4SSJ6imz9F_0sBZFS7Ql2ECEa9k4M_6i5D0c_qS",
          "required": false,
          "value": ""
       }, 
