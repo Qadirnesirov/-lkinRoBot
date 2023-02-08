@@ -51,7 +51,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-🙋🏻‍♀️Salam {} necəsən? mənim adım {}! 
+🙋🏻‍♀️Salam {username} necəsən? mənim adım {Qadir}! 
 👮🏻‍♀️Mən Telegram qruplarını qorumaq üçün Azərbaycanca Olan Qrup İdarə Botuyam!.
 👩‍🔧 Bacarıqlarımı görməy üçün buttona klik et
 """
@@ -195,20 +195,20 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(text="❓ Bütün Əmrlər", 
-        url=f"t.me/NezrinRobot?start=help"),
+        url=f"t.me/QadirRoBot?start=help"),
                    ],
                      [
                          InlineKeyboardButton(
                              text="👨‍💻 Sahibim",
-                             url=f"https://t.me/aykhan_s"),
+                             url=f"https://t.me/nesirovqadirofficiall"),
                          InlineKeyboardButton(
                              text="🔔 Yeniliklər kanalı",
-                             url="https://t.me/RoBotlarimTg")
+                             url="https://t.me/sevgimsende")
                     ],
                      [
                          InlineKeyboardButton(
                              text="🙋🏻‍♂️ Dəstək Qrupumuz",
-                             url=f"https://t.me/RoBotlarimGroup")
+                             url=f"https://t.me/imperatorofficiall")
                      ],
                      [
                          InlineKeyboardButton(
@@ -218,7 +218,7 @@ def start(update: Update, context: CallbackContext):
                     ]]))
     else:
         update.effective_message.reply_text(
-            "🧚‍♀Bəli, Mən Nəzrin♥️ İşləyirəm"
+            "🧚‍♀Bəli, Mən Qadir♥️ İşləyirəm"
             .format(uptime),
             parse_mode=ParseMode.HTML)
 
