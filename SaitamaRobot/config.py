@@ -23,14 +23,14 @@ class Config(object):
     # REQUIRED
     #Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 4856651  # integer value, dont use ""
-    API_HASH = "b8327893a1645fc70085831bd0570b21"
-    TOKEN = "1739742678:AAEmlbaghSKVMYX4NUrxPcK_mv7k1hFMbys"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    API_ID = 26712413  # integer value, dont use ""
+    API_HASH = "3298034eb7cec614ef852fda02536153"
+    TOKEN = "6065065057:AAF1bXLnFnq5c9Rqy3Z_5RpUgLWBzeyITBs"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 1727079853  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "aykhan_s"
-    SUPPORT_CHAT = 'RoBotlarimTg'  #Your own group for support, do not add the @
-    JOIN_LOGGER = -1001456155319  #Prints any new group the bot is added to, prints just the name and ID.
-    EVENT_LOGS = -1001456155319  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    OWNER_USERNAME = "nesirovqadirofficiall"
+    SUPPORT_CHAT = 'sevgimsende'  #Your own group for support, do not add the @
+    JOIN_LOGGER = -1001842770743  #Prints any new group the bot is added to, prints just the name and ID.
+    EVENT_LOGS = -1001842770743  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     #RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:631T2dGYEfANXb0sORrY@containers-us-west-14.railway.app:6631/railway'  # needed for any database modules
@@ -40,7 +40,7 @@ class Config(object):
     INFOPIC = True
     URL = None
     SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
-    SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
+    SPAMWATCH_SUPPORT_CHAT = "@imperatorofficiall"
 
     #OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
