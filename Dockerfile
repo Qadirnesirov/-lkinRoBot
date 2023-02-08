@@ -66,11 +66,11 @@ RUN apt update && apt upgrade -y && \
 # Pypi paketi güncəlləmə
 RUN pip3 install --upgrade pip setuptools
 RUN cd /
-COPY . /NezrinRobot/
-RUN cd NezrinRobot
-WORKDIR /NezrinRobot
+COPY . /QadirRobot/
+RUN cd QadirRobot
+WORKDIR /QadirRobot
 ENV PATH="/home/bot/bin:$PATH"
-RUN cd /NezrinRobot
+RUN cd /QadirRobot
 # Tələblər
 RUN pip3 install -U -r requirements.txt
 # Başlat
