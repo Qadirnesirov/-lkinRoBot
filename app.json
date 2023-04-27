@@ -1,6 +1,6 @@
 {
-      "name": "QadirRobot",
-      "description": "Azərbaycanca olan çox funksiyalı qrup idarə botu.",
+      "name": "ilkinro_bot",
+      "description": "Azərbaycanca olan çox funksiyalı qrup idarə botu , ilkin üçün özəl yaradıldım hədyə olaraq .",
       "keywords": [
          "telegram",
          "anime",
@@ -19,7 +19,7 @@
    ],
    "env": {
       "TOKEN": { 
-         "description": "6065065057:AAF1bXLnFnq5c9Rqy3Z_5RpUgLWBzeyITBs",
+         "description": "6069875423:AAGpUMccZyyJYzgIl9zWp_k8Cm5Lk7puy1Y",
          "required": true,
          "value": ""
       },
@@ -29,7 +29,7 @@
          "value": ""
       },
       "API_HASH": {
-         "description": "3298034eb7cec614ef852fda02536153
+         "description": "3298034eb7cec614ef852fda02536153"
          "value": ""
       },    
       "SQLALCHEMY_DATABASE_URI": {
@@ -38,13 +38,13 @@
          "value": "sqldbtype://username:pw@hostname:port/db_name"
       },      
       "OWNER_ID": {
-         "description": "5860341998",
+         "description": "6137872797",
          "required": true,
          "value": "1727079853"
       },
       "OWNER_USERNAME": {
-         "description": "nesirovqadirofficiall",
-         "value": "aykhan_s"
+         "description": "Capitandi",
+         "value": "Capitandi"
       },
       "SUPPORT_CHAT": {
          "description": "https://t.me/imperatorofficiall",
@@ -52,14 +52,14 @@
          "value": ""
       },
       "EVENT_LOGS": {
-         "description": "https://t.me/QadirRooBot",
+         "description": "https://t.me/ilkinro_bot",
          "required": true,
          "value": ""
       },
       "JOIN_LOGGER": {
-         "description": "https://t.me/QadirRooBot",
+         "description": "https://t.me/ilkinro_bot",
          "required": true,
-         "value": ""
+         "value": "ilkinro_bot"
       },      
       "CASH_API_KEY": {
          "description": "Valyuta modulu üçün API key. https://www.alphavantage.co/support/#api-key adresindən alın",
